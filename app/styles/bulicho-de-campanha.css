@@ -1,0 +1,765 @@
+/* Bulicho de Campanha: actual development footage */
+.has-gameplay {
+  color: var(--white);
+}
+.has-gameplay .bulicho-card-scene {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s;
+  filter: brightness(0.72);
+}
+.has-gameplay:hover .bulicho-card-scene {
+  transform: scale(1.04);
+}
+.has-gameplay .bulicho-card-logo {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -48%);
+  object-fit: contain;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 4px 16px #0009);
+}
+.has-gameplay .pill {
+  border-color: #ffffff70;
+}
+.has-gameplay .art-shade {
+  background: linear-gradient(0deg, #000b, transparent 65%, #0004);
+}
+.bulicho-live-hero {
+  background: #eeeae1;
+  color: #272b23;
+  padding-bottom: 56px;
+  overflow: hidden;
+}
+.bulicho-live-hero .breadcrumbs {
+  color: #32382c;
+}
+.bulicho-live-hero .breadcrumbs > a {
+  color: #626a58;
+}
+.bulicho-live-hero .breadcrumbs > a:hover {
+  color: #111;
+}
+.bulicho-live-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: center;
+  gap: 46px;
+  padding: 50px 6% 10px;
+}
+.bulicho-live-copy > .eyebrow {
+  font-size: 8px;
+  color: #626b54;
+  letter-spacing: 1.8px;
+}
+.bulicho-live-copy h1 {
+  font-family: var(--serif);
+  font-size: clamp(70px, 6.7vw, 105px);
+  line-height: 0.92;
+  letter-spacing: -2.5px;
+  font-weight: 400;
+  margin: 27px 0;
+}
+.bulicho-live-copy h1 em {
+  font-size: 0.7em;
+  letter-spacing: -1.5px;
+  white-space: nowrap;
+}
+.bulicho-live-copy > p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #616954;
+  margin: 0 0 30px;
+}
+.bulicho-play-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 11px;
+}
+.bulicho-play-link .play-circle {
+  width: 43px;
+  height: 43px;
+  border-color: #8d967e;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+.bulicho-play-link .button-note {
+  font-size: 6px;
+  color: #747e64;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.bulicho-play-link > svg {
+  margin-left: 10px;
+}
+.bulicho-play-link:hover .play-circle {
+  background: #272b23;
+  color: #eeeae1;
+}
+.bulicho-hero-tags {
+  display: flex;
+  gap: 19px;
+  margin-top: 35px;
+  font-size: 7px;
+  letter-spacing: 1.2px;
+  color: #68725a;
+}
+.bulicho-hero-tags > span {
+  border-top: 1px solid #abb39d;
+  padding-top: 10px;
+}
+.bulicho-live-art {
+  position: relative;
+  margin: 0;
+  min-width: 0;
+  padding-top: 20px;
+}
+.bulicho-live-art .bulicho-scene {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: 55% center;
+  border: 6px solid #dad9c9;
+  box-shadow: 14px 14px 0 #dfe1d2;
+}
+.bulicho-game-logo {
+  position: absolute;
+  right: 15px;
+  top: -30px;
+  width: 120px;
+  height: 120px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 4px 6px #0004);
+}
+.bulicho-live-art figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 25px;
+  font-size: 6px;
+  letter-spacing: 1px;
+  color: #69745d;
+  line-height: 1.7;
+}
+.bulicho-live-art figcaption > span:last-child {
+  font-size: 6px;
+  border: 1px solid #a8b098;
+  padding: 5px 7px;
+  white-space: nowrap;
+}
+.bulicho-welcome {
+  padding-top: 72px;
+  padding-bottom: 76px;
+  background: #1a211a;
+}
+.bulicho-welcome > .eyebrow {
+  font-size: 9px;
+  color: #bec6b0;
+}
+.bulicho-welcome-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 85px;
+  margin-top: 38px;
+  align-items: start;
+}
+.bulicho-welcome h2,
+.bulicho-partnership-copy h2,
+.conditions-grid h2 {
+  font-size: clamp(38px, 4vw, 58px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -1.8px;
+  margin: 0;
+}
+.bulicho-welcome h2 em,
+.bulicho-partnership-copy h2 em,
+.conditions-grid h2 em {
+  font-size: 1.14em;
+}
+.bulicho-welcome p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #aebba0;
+  margin: 0 0 16px;
+  max-width: 420px;
+}
+.bulicho-welcome p:first-child {
+  color: #e2e7d8;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.bulicho-gameplay-section {
+  padding-top: 72px;
+  padding-bottom: 75px;
+}
+.gameplay-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid #46503f;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #758369 transparent;
+}
+.gameplay-tabs > button {
+  padding: 16px 23px;
+  background: transparent;
+  color: #9ea894;
+  font-size: 11px;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  flex: 1 0 auto;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+.gameplay-tabs > button:hover {
+  color: white;
+  background: #1d251b;
+}
+.gameplay-tabs > button[aria-selected="true"] {
+  color: #edf0e5;
+  border-bottom-color: #c5d7a3;
+  background: #232c1d;
+}
+.gameplay-tabs > button:focus-visible {
+  outline-offset: -5px;
+}
+.gameplay-panel:focus-visible {
+  outline: 1px solid #a3b58a;
+  outline-offset: 5px;
+}
+.gameplay-panel > video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-height: 75svh;
+  background: #090d08;
+}
+.gameplay-clip-description {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  align-items: start;
+  gap: 35px;
+  padding: 27px 0;
+  border-bottom: 1px solid var(--line);
+}
+.gameplay-clip-description .eyebrow {
+  font-size: 7px;
+  color: #9da98e;
+  letter-spacing: 1.3px;
+}
+.gameplay-clip-description h3 {
+  font-size: 26px;
+  letter-spacing: -0.7px;
+  font-weight: 400;
+  margin: 7px 0 0;
+}
+.gameplay-clip-description p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #a5b098;
+  margin: 0;
+}
+.development-caption {
+  font-size: 8px;
+  color: #8c977e;
+  letter-spacing: 0.3px;
+  line-height: 1.8;
+  margin: 15px 0 0;
+}
+.bulicho-compadrio {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 65px;
+  align-items: center;
+  padding-top: 62px;
+  padding-bottom: 72px;
+  background: #1a211a;
+}
+.bulicho-partnership-art {
+  position: relative;
+  min-width: 0;
+}
+.bulicho-partnership-art > img {
+  width: 100%;
+  aspect-ratio: 1.1;
+  object-fit: cover;
+  object-position: 50% center;
+}
+.bulicho-partnership-art > .eyebrow {
+  font-size: 6px;
+  letter-spacing: 1px;
+  color: #97a784;
+  margin-top: 16px;
+}
+.bulicho-partnership-copy > .eyebrow {
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #c1cbb3;
+  gap: 6px;
+}
+.bulicho-partnership-copy h2 {
+  font-size: clamp(33px, 3.4vw, 48px);
+  margin: 24px 0;
+}
+.bulicho-partnership-copy p {
+  font-size: 12px;
+  color: #acb89e;
+  line-height: 1.9;
+  margin: 0 0 16px;
+}
+.bulicho-partnership-copy .text-link {
+  font-size: 10px;
+  border-color: #5a6a4a;
+}
+.bulicho-conditions {
+  padding-top: 67px;
+  padding-bottom: 75px;
+  background: #eeeae1;
+  color: #272b23;
+}
+.bulicho-conditions > .eyebrow {
+  font-size: 8px;
+  color: #657153;
+}
+.conditions-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 90px;
+  margin-top: 40px;
+}
+.conditions-grid h2 {
+  font-size: clamp(35px, 3.6vw, 53px);
+  margin-bottom: 27px;
+}
+.conditions-grid > div > p {
+  color: #68735b;
+  font-size: 12px;
+  line-height: 1.9;
+  max-width: 295px;
+}
+.conditions-note {
+  display: block;
+  font-size: 6px;
+  letter-spacing: 1.1px;
+  line-height: 1.8;
+  color: #7b866c;
+  max-width: 230px;
+  margin-top: 28px;
+}
+.conditions-list details {
+  border-bottom: 1px solid #c2c7b6;
+}
+.conditions-list details:first-child {
+  border-top: 1px solid #c2c7b6;
+}
+.conditions-list summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding: 21px 0;
+}
+.conditions-list summary::-webkit-details-marker {
+  display: none;
+}
+.condition-index {
+  font-size: 8px;
+  color: #818d71;
+  align-self: flex-start;
+  padding-top: 3px;
+}
+.condition-label {
+  display: block;
+  font-size: 6px;
+  color: #7d896e;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.condition-name {
+  display: block;
+  font-size: 23px;
+  margin-top: 4px;
+  letter-spacing: -0.5px;
+}
+.condition-plus {
+  margin-left: auto;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.conditions-list details[open] .condition-plus {
+  transform: rotate(45deg);
+}
+.conditions-list details > p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #667158;
+  margin: 0 0 24px;
+  padding-left: 33px;
+}
+.conditions-list summary:focus-visible {
+  outline: 1px solid #65784d;
+  outline-offset: 4px;
+}
+.bulicho-scenes {
+  padding-top: 62px;
+  padding-bottom: 75px;
+}
+.bulicho-scenes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 25px;
+}
+.bulicho-scenes-grid figure {
+  margin: 0;
+  min-width: 0;
+}
+.bulicho-scenes-grid img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.bulicho-scenes-grid h3 {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  margin: 17px 0 7px;
+}
+.bulicho-scenes-grid p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #9da78f;
+  margin: 0;
+}
+.bulicho-scenes > .development-caption {
+  margin-top: 30px;
+}
+.bulicho-page .next-game {
+  background: #eeeae1;
+}
+@media (min-width: 1600px) {
+  .bulicho-live-grid {
+    padding-left: 8%;
+    padding-right: 8%;
+    gap: 60px;
+  }
+  .bulicho-live-art .bulicho-scene {
+    height: 520px;
+  }
+  .bulicho-live-copy h1 {
+    font-size: 112px;
+  }
+}
+@media (max-width: 1000px) {
+  .bulicho-live-grid {
+    gap: 30px;
+    padding-top: 45px;
+  }
+  .bulicho-live-copy h1 {
+    font-size: 76px;
+  }
+  .bulicho-live-copy > p {
+    font-size: 12px;
+  }
+  .bulicho-live-copy h1 em {
+    font-size: 0.64em;
+  }
+  .bulicho-live-art .bulicho-scene {
+    height: 380px;
+  }
+  .bulicho-game-logo {
+    width: 100px;
+    height: 100px;
+    top: -18px;
+  }
+  .bulicho-play-link {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .bulicho-play-link .button-note {
+    font-size: 5px;
+  }
+  .bulicho-play-link > svg {
+    margin-left: 0;
+  }
+  .bulicho-welcome-grid {
+    gap: 45px;
+  }
+  .gameplay-tabs > button {
+    padding: 15px 17px;
+    font-size: 10px;
+  }
+  .bulicho-compadrio {
+    gap: 35px;
+  }
+  .bulicho-partnership-copy h2 {
+    font-size: 35px;
+  }
+  .conditions-grid {
+    gap: 45px;
+  }
+  .bulicho-live-art figcaption {
+    font-size: 5px;
+    gap: 9px;
+  }
+  .bulicho-live-art figcaption > span:last-child {
+    font-size: 5px;
+    padding: 4px;
+  }
+}
+@media (max-width: 700px) {
+  .bulicho-live-hero {
+    padding-bottom: 42px;
+  }
+  .bulicho-live-grid {
+    grid-template-columns: 1fr;
+    gap: 39px;
+    padding: 35px 6% 0;
+  }
+  .bulicho-live-copy > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.4px;
+  }
+  .bulicho-live-copy h1 {
+    font-size: 92px;
+    margin: 26px 0;
+    letter-spacing: -2.6px;
+  }
+  .bulicho-live-copy h1 em {
+    font-size: 0.66em;
+    letter-spacing: -1.5px;
+  }
+  .bulicho-live-copy > p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+  }
+  .bulicho-play-link {
+    font-size: 11px;
+    gap: 13px;
+  }
+  .bulicho-play-link .button-note {
+    font-size: 6px;
+  }
+  .bulicho-hero-tags {
+    margin-top: 28px;
+    font-size: 6px;
+    gap: 22px;
+  }
+  .bulicho-live-art {
+    padding-top: 22px;
+  }
+  .bulicho-live-art .bulicho-scene {
+    height: auto;
+    aspect-ratio: 1.4;
+    object-position: center center;
+    border-width: 4px;
+    box-shadow: 8px 8px 0 #dfe1d2;
+  }
+  .bulicho-game-logo {
+    width: 92px;
+    height: 92px;
+    top: -15px;
+    right: 10px;
+  }
+  .bulicho-live-art figcaption {
+    padding-top: 20px;
+    font-size: 5px;
+  }
+  .bulicho-live-art figcaption > span:last-child {
+    font-size: 5px;
+    padding: 4px 5px;
+  }
+  .bulicho-welcome {
+    padding-top: 42px;
+    padding-bottom: 38px;
+  }
+  .bulicho-welcome > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .bulicho-welcome-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-top: 30px;
+  }
+  .bulicho-welcome h2 {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+  }
+  .bulicho-welcome p {
+    font-size: 12px;
+    max-width: none;
+  }
+  .bulicho-welcome p:first-child {
+    font-size: 15px;
+  }
+  .bulicho-gameplay-section {
+    padding-top: 47px;
+    padding-bottom: 46px;
+  }
+  .bulicho-gameplay-section .catalog-count {
+    font-size: 5px;
+    max-width: 125px;
+  }
+  .bulicho-gameplay-section .section-heading {
+    margin-bottom: 25px;
+  }
+  .gameplay-tabs {
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+  .gameplay-tabs > button {
+    font-size: 10px;
+    padding: 14px 16px;
+    flex: 0 0 auto;
+  }
+  .gameplay-clip-description {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 22px 0;
+  }
+  .gameplay-clip-description h3 {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  .gameplay-clip-description .eyebrow {
+    font-size: 6px;
+  }
+  .gameplay-clip-description p {
+    font-size: 12px;
+  }
+  .development-caption {
+    font-size: 7px;
+    margin-top: 12px;
+  }
+  .bulicho-compadrio {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-top: 39px;
+    padding-bottom: 44px;
+  }
+  .bulicho-partnership-art > img {
+    aspect-ratio: 16/11;
+  }
+  .bulicho-partnership-art > .eyebrow {
+    font-size: 5px;
+    letter-spacing: 0.9px;
+    margin-top: 12px;
+  }
+  .bulicho-partnership-copy > .eyebrow {
+    font-size: 7px;
+  }
+  .bulicho-partnership-copy h2 {
+    font-size: 37px;
+    letter-spacing: -1.3px;
+    margin: 24px 0;
+  }
+  .bulicho-partnership-copy p {
+    font-size: 12px;
+  }
+  .bulicho-conditions {
+    padding-top: 40px;
+    padding-bottom: 44px;
+  }
+  .bulicho-conditions > .eyebrow {
+    font-size: 7px;
+  }
+  .conditions-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .conditions-grid h2 {
+    font-size: 41px;
+    letter-spacing: -1.4px;
+    margin-bottom: 23px;
+  }
+  .conditions-grid > div > p {
+    font-size: 12px;
+    max-width: none;
+  }
+  .conditions-note {
+    font-size: 5px;
+    max-width: none;
+    margin-top: 19px;
+  }
+  .conditions-list summary {
+    padding: 18px 0;
+    gap: 17px;
+  }
+  .condition-label {
+    font-size: 6px;
+  }
+  .condition-name {
+    font-size: 23px;
+  }
+  .conditions-list details > p {
+    font-size: 12px;
+    padding-left: 31px;
+    margin-bottom: 20px;
+  }
+  .bulicho-scenes {
+    padding-top: 43px;
+    padding-bottom: 45px;
+  }
+  .bulicho-scenes .catalog-count {
+    font-size: 5px;
+    max-width: 110px;
+  }
+  .bulicho-scenes .frames-heading h2 {
+    font-size: 30px;
+  }
+  .bulicho-scenes-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .bulicho-scenes-grid h3 {
+    font-size: 17px;
+    margin-top: 14px;
+  }
+  .bulicho-scenes-grid p {
+    font-size: 11px;
+  }
+  .bulicho-scenes > .development-caption {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 370px) {
+  .bulicho-live-copy h1 {
+    font-size: 80px;
+  }
+  .bulicho-live-copy h1 em {
+    font-size: 0.65em;
+  }
+  .bulicho-live-copy > p {
+    font-size: 13px;
+  }
+  .bulicho-play-link {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .bulicho-welcome h2 {
+    font-size: 36px;
+  }
+  .bulicho-partnership-copy h2 {
+    font-size: 33px;
+  }
+  .conditions-grid h2 {
+    font-size: 37px;
+  }
+  .has-gameplay .bulicho-card-logo {
+    width: 135px;
+    height: 135px;
+  }
+}
