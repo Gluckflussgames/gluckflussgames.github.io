@@ -9,7 +9,12 @@ export const metadata: Metadata = {
     title: en.war.title,
     description: en.war.description,
     images: [
-      { url: "/assets/war-effort/main-menu.webp", width: 1578, height: 783, alt: en.war.menuAlt },
+      {
+        url: "/assets/war-effort/screenshots/main-menu.webp",
+        width: 1578,
+        height: 783,
+        alt: en.war.menuAlt,
+      },
     ],
   },
 };

@@ -85,7 +85,7 @@ export function PublisherHomePage() {
             <article className="game-card war-card">
               <a className="game-art war-art" href="/jogos/war-effort/" aria-label={c.discoverWar}>
                 <img
-                  src="/assets/war-effort/main-menu.webp"
+                  src="/assets/war-effort/screenshots/main-menu.webp"
                   alt={c.warAlt}
                   width="1578"
                   height="783"

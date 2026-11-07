@@ -15,7 +15,7 @@ export function WarEffortGamePage() {
         <section className="detail-hero war-detail" aria-labelledby="game-title">
           <img
             className="detail-backdrop"
-            src="/assets/war-effort/main-menu.webp"
+            src="/assets/war-effort/screenshots/main-menu.webp"
             alt=""
             width="1578"
             height="783"
@@ -110,16 +110,28 @@ export function WarEffortGamePage() {
               {c.imageHeading} <em>{c.imageAccent}</em>
             </h2>
           </div>
-          <figure className="war-screenshot">
-            <img
-              src="/assets/war-effort/main-menu.webp"
-              alt={c.menuAlt}
-              width="1578"
-              height="783"
-              loading="lazy"
-            />
-            <figcaption>{c.menuCaption}</figcaption>
-          </figure>
+          <div className="war-screenshots-grid">
+            {c.screenshots.map((screenshot) => (
+              <figure className="war-screenshot" key={screenshot.file}>
+                <a
+                  href={"/assets/war-effort/screenshots/" + screenshot.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={c.openImage + screenshot.title}
+                >
+                  <img
+                    src={"/assets/war-effort/screenshots/" + screenshot.file}
+                    alt={screenshot.alt}
+                    width={screenshot.width}
+                    height={screenshot.height}
+                    loading="lazy"
+                  />
+                </a>
+                <figcaption>{screenshot.title}</figcaption>
+              </figure>
+            ))}
+          </div>
+          <p className="development-caption">{c.screenshotNote}</p>
         </section>
         <section className="frames-section section-shell" aria-labelledby="frames-title">
           <div className="section-top">
