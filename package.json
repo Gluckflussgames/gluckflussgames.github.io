@@ -1,8 +1,8 @@
 {
   "name": "gluckfluss-games-website",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
-  "description": "Gl\u00fcckfluss Games publisher website \u2014 English and Portuguese.",
+  "description": "Glückfluss Games publisher website — English and Portuguese.",
   "engines": {
     "node": ">=22.13.0"
   },

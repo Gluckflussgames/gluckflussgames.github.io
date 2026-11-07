@@ -4,6 +4,13 @@ Glückfluss Games — publisher website
 Live site: https://gluckflussgames.github.io/
 Repository: https://github.com/Gluckflussgames/gluckflussgames.github.io
 
+Version and release policy
+  Current version: 0.0.1.
+  Change the version or create a version tag/release only when explicitly
+  requested by the owner. Never suggest a release or ask whether to create one.
+  Routine fixes, commits, pushes, and deployments do not authorize version changes
+  or releases. The owner will initiate those requests.
+
 Requirements
   Node.js 22.13 or later and npm.
 
