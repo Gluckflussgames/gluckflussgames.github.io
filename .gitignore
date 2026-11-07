@@ -1,0 +1,39 @@
+# Local instructions and notes
+*.md
+
+# Environment files and private keys
+.env*
+..env*
+.dev.vars*
+*.pem
+
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+coverage/
+
+# Local work, captured conversations, and source media
+work/
+outputs/
+assets/references/
+assets/bulicho-de-campanha/originais/
+assets/bulicho-de-campanha/contexto/
+
+# Local tooling
+.openai/
+.sites-runtime/
+.vinext/
+.wrangler/
+.agents/
+.codex/
+
+# Logs and OS metadata
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store

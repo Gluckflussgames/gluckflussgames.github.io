@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+dist/
+work/
+assets/
+.sites-runtime/
+.vinext/
+.wrangler/
+package-lock.json
+*.md
