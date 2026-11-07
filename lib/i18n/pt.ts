@@ -1,0 +1,265 @@
+import type { Translations } from "./en";
+
+export const pt: Translations = {
+  nav: {
+    publisher: "A publisher",
+    games: "Nossos jogos",
+    contact: "Vamos conversar",
+    allGames: "Todos os jogos",
+    backTop: "DE VOLTA AO TOPO",
+    openMenu: "Abrir menu",
+    closeMenu: "Fechar menu",
+    main: "Navegação principal",
+    mobile: "Navegação móvel",
+    skip: "Pular para o conteúdo",
+    home: "Início",
+    homeLabel: "Glückfluss Games — início",
+    logoAlt: "Logo Glückfluss Games: montanhas e um rio sinuoso",
+    language: "Idioma",
+    external: " (abre em nova aba)",
+    github: "Encontre a gente no GitHub",
+  },
+  home: {
+    title: "Glückfluss Games — Novos caminhos, novos jogos",
+    description: "Conheça a Glückfluss Games e descubra War Effort e Bulicho de Campanha.",
+    publisherLabel: "A PUBLISHER",
+    greeting: "PRAZER, SOMOS A GLÜCKFLUSS GAMES.",
+    headline: "Publicamos jogos.",
+    headlineAccent: "Abrimos caminhos.",
+    intro:
+      "Somos uma publisher que reúne jogos com identidade própria. Acreditamos em histórias, mundos e experiências que merecem encontrar seu público.",
+    about:
+      "Cada projeto tem sua própria linguagem, seu mundo e seu jeito de jogar. É essa diversidade que queremos compartilhar com você.",
+    discover: "Conheça nossos jogos",
+    logoCaption: "HISTÓRIAS QUE ENCONTRAM SEU CAMINHO.",
+    universes: "UMA PUBLISHER. DIFERENTES UNIVERSOS.",
+    explore: "EXPLORE O CATÁLOGO",
+    stripStart: "Histórias que ficam.",
+    stripEnd: "Jogos que abrem caminhos.",
+    catalog: "NOSSO CATÁLOGO",
+    catalogCount: "DOIS JOGOS. NOVOS CAMINHOS.",
+    catalogHeading: "Cada jogo,",
+    catalogAccent: "um novo mundo.",
+    catalogDescription: "Conheça os títulos que fazem parte da Glückfluss Games.",
+    warLabel: "UM PRIMEIRO OLHAR",
+    introVideo: "VÍDEO DE INTRODUÇÃO",
+    warDescription: "Dê o primeiro passo. Assista à introdução do jogo.",
+    warAlt: "Menu de War Effort, com desenhos técnicos sobre uma mesa de trabalho",
+    discoverWar: "Conheça War Effort",
+    bulichoLabel: "JOGOS CAMPEIROS · PIXEL ART",
+    bulichoDescription: "Jogos campeiros, chimarrão e parceria em pixel art.",
+    bulichoAlt: "O interior do bulicho de Honório, em pixel art",
+    discoverBulicho: "Conheça Bulicho de Campanha",
+    development: "EM DESENVOLVIMENTO",
+    welcome: "SE APROCHEGUE, VIVENTE.",
+    follow: "SIGA O FLUXO",
+    contactHeading: "O próximo caminho",
+    contactAccent: "começa aqui.",
+    followDescription: "Acompanhe os próximos passos da Glückfluss Games.",
+  },
+  war: {
+    title: "War Effort — Glückfluss Games",
+    description:
+      "Conheça War Effort, da Glückfluss Games. Veja a imagem do jogo e assista à introdução.",
+    presents: "GLÜCKFLUSS GAMES APRESENTA / 01",
+    introLine1: "Toda história tem um começo.",
+    introLine2: "Este é o primeiro olhar para War Effort.",
+    watch: "Assistir à introdução",
+    withAudio: "01:09 · COM ÁUDIO",
+    catalog: "UM JOGO DO CATÁLOGO GLÜCKFLUSS GAMES",
+    introduction: "INTRODUÇÃO",
+    originalAudio: "01:09 · ÁUDIO ORIGINAL",
+    introHeading: "Antes de tudo,",
+    introAccent: "a primeira cena.",
+    introDescription: "Dê o play e conheça a introdução de War Effort.",
+    videoLabel: "Vídeo de introdução de War Effort",
+    videoFallback: "Seu navegador não suporta vídeo HTML5.",
+    openVideo: "Assista à introdução de War Effort.",
+    videoCaption: "WAR EFFORT · INTRODUÇÃO",
+    images: "O JOGO",
+    gameScreenshot: "IMAGEM DO JOGO",
+    imageHeading: "Um olhar para",
+    imageAccent: "War Effort.",
+    menuCaption: "Menu principal · Versão em desenvolvimento",
+    menuAlt: "Menu de War Effort: mesa com desenhos técnicos, peças mecânicas e uma luminária",
+    scenes: "EM CENA",
+    introImages: "CENAS DA INTRODUÇÃO",
+    scenesHeading: "Fragmentos de",
+    scenesAccent: "uma história.",
+    scenesDescription: "Cenas do vídeo de introdução.",
+    frames: [
+      {
+        file: "01",
+        caption: "01 / O primeiro olhar",
+        alt: "Cena em preto e branco da introdução de War Effort",
+      },
+      {
+        file: "02",
+        caption: "02 / Em cena",
+        alt: "Artilharia em uma cena do vídeo de introdução de War Effort",
+      },
+      {
+        file: "03",
+        caption: "03 / A história continua",
+        alt: "Cena histórica do vídeo de introdução de War Effort",
+      },
+    ],
+    next: "OUTRO CAMINHO DO NOSSO CATÁLOGO",
+  },
+  bulicho: {
+    title: "Bulicho de Campanha — Glückfluss Games",
+    description:
+      "Bocha, jogo do osso, chimarrão e parceria. Conheça Bulicho de Campanha, um jogo em pixel art sobre a vida num bulicho gaúcho. Veja vídeos reais do desenvolvimento.",
+    greeting: "SE APROCHEGUE, VIVENTE.",
+    heroLine1: "Entre uma bocha e um mate,",
+    heroLine2: "constrói teu nome no bulicho.",
+    watch: "Veja o jogo em ação",
+    realVideos: "VÍDEOS REAIS DO DESENVOLVIMENTO",
+    pixel: "PIXEL ART",
+    countryGames: "JOGOS CAMPEIROS",
+    heroAlt: "O jogador no interior do bulicho, com balcão, fogão e prateleiras em pixel art",
+    logoAlt: "Logo Bulicho de Campanha",
+    heroCaption: "UMA PROSA. UMA PARTIDA. UM MATE.",
+    development: "EM DESENVOLVIMENTO",
+    welcome: "BEM-VINDO AO BULICHO",
+    welcomeHeading: "Tem lugar pra",
+    welcomeAccent: "mais um vivente.",
+    welcomeIntro:
+      "Um bulicho gaúcho em pixel art, onde a rodada não termina quando a partida acaba.",
+    welcomeGames:
+      "Enfrenta Anselmo na bocha tradicional, na bocha 48 e no jogo do osso. Lida com os Pila, prepara o chimarrão e não esquece de acertar as contas com o bulicheiro Honório.",
+    welcomeFriendship:
+      "Por aqui, as façanhas constroem teu Renome. Mas ajudar a recolher as bochas e dividir a lida é o que faz crescer o Compadrio.",
+    gameplay: "A LIDA DO JOGO",
+    gameplayNote: "DO DESENVOLVIMENTO PARA A CANCHA",
+    gameplayHeading: "Dá o play.",
+    gameplayAccent: "Entra na prosa.",
+    gameplayDescription: "Escolhe uma atividade para ver as mecânicas em ação.",
+    gameplayTabs: "Vídeos das mecânicas de Bulicho de Campanha",
+    videoSuffix: " — vídeo de desenvolvimento de Bulicho de Campanha",
+    videoFallback: "Seu navegador não suporta vídeo HTML5.",
+    openVideo: "Abra o vídeo.",
+    developmentCaption: "Imagens da versão em desenvolvimento · Gameplay real",
+    partnership: "MUITO ALÉM DO PLACAR",
+    partnershipImage: "Jogador e Anselmo na cancha de bocha, dividindo as tarefas da partida",
+    partnershipCaption: "NO BULICHO, NINGUÉM FAZ TUDO SOZINHO.",
+    partnershipHeading: "Não basta vencer.",
+    partnershipAccent: "Tem que ser parceiro.",
+    partnershipFirst:
+      "Pode ganhar a aposta e ser um péssimo companheiro. Ou perder a partida e sair dela mais próximo do Anselmo.",
+    partnershipSecond:
+      "O Compadrio dá valor aos pequenos gestos: carregar a caixa de bochas, arrumar os alvos, recolher as peças e pagar o que deve. Cada vivente tem a própria confiança em ti.",
+    discoverMeters: "Conheça os medidores",
+    choices: "CADA ESCOLHA CONTA",
+    conditionHeading: "A lida deixa",
+    conditionAccent: "suas marcas.",
+    conditionIntro:
+      "Equilibra a disposição, o trago e a reputação. No bulicho, o estado do vivente muda o jeito de jogar.",
+    conditionNote: "MECÂNICAS DA VERSÃO EM DESENVOLVIMENTO",
+    portraits: "RETRATOS DO BULICHO",
+    realScenes: "CENAS REAIS DO JOGO",
+    scenesHeading: "Um canto pra",
+    scenesAccent: "se aprochegar.",
+    disclaimer:
+      "Vídeos e imagens mostram a versão em desenvolvimento. As mecânicas e o visual podem mudar.",
+    next: "OUTRO CAMINHO DO NOSSO CATÁLOGO",
+    conditions: [
+      {
+        name: "Borracho",
+        label: "RISCO E RECOMPENSA",
+        description:
+          "O trago aumenta a embriaguez e dificulta a coordenação dos arremessos. Conseguir uma façanha nessas condições pode render mais Renome. Só beber, sem fazer bonito nas atividades, não traz fama.",
+      },
+      {
+        name: "Engolesmado",
+        label: "O ESTÔMAGO TEM LIMITE",
+        description:
+          "Quantidade, ritmo e temperatura da bebida pesam no estômago. O enjoo e o estufamento aumentam o risco de passar vergonha no bulicho e perder Renome. Dar um tempo e cuidar do mate faz parte da estratégia.",
+      },
+      {
+        name: "Esgualepado",
+        label: "O CANSAÇO DA LIDA",
+        description:
+          "Carregar objetos, arremessar e cuidar das tarefas exige disposição. O cansaço deixa os movimentos mais lentos e afeta a precisão. Descansar, tomar uma gelada ou preparar um chimarrão ajudam a administrar o ritmo do vivente no jogo.",
+      },
+      {
+        name: "Renome",
+        label: "TEU NOME NO BULICHO",
+        description:
+          "As façanhas nos jogos constroem tua reputação. Começa como Vivente e ganha novos títulos conforme avança, passando por Chirú e Campeiro até buscar o posto de Lenda do Pampa. As recompensas dependem do resultado, da modalidade e do estado do personagem.",
+      },
+      {
+        name: "Compadrio",
+        label: "PARCERIA SE CONSTRÓI",
+        description:
+          "Cada personagem tem sua própria relação contigo. Ajudar a organizar as partidas, recolher as peças e pagar as dívidas aproxima os viventes. Ganhar ou perder, por si só, não define uma boa parceria: o que conta é como tu divide a lida.",
+      },
+    ],
+    clips: [
+      {
+        file: "bocha-tradicional",
+        title: "Bocha tradicional",
+        label: "01 / NA CANCHA",
+        description:
+          "Mira no balim, acompanha o placar e enfrenta Anselmo. A parceria também aparece na hora de recolher as bochas e preparar a próxima rodada.",
+      },
+      {
+        file: "bocha-48",
+        title: "Bocha 48",
+        label: "02 / OUTRA RODADA",
+        description:
+          "Arruma as bochas-alvo e capricha no arremesso. Nesta modalidade, Anselmo vai cantando o placar e cada jogada exige força e precisão.",
+      },
+      {
+        file: "jogo-do-osso",
+        title: "Jogo do osso",
+        label: "03 / SORTE E DESTREZA",
+        description:
+          "O minigame de arremesso interfere na direção e na força da jogada. No fim da rodada, ajudar a juntar as peças também faz parte do jogo.",
+      },
+      {
+        file: "chimarrao",
+        title: "Chimarrão",
+        label: "04 / A HORA DO MATE",
+        description:
+          "Da chaleira ao fogão, a água tem volume e temperatura. Preparar o mate envolve lidar com objetos, aquecimento e até evaporação.",
+      },
+      {
+        file: "pilas",
+        title: "Os Pila",
+        label: "05 / NA GUAIACA",
+        description:
+          "Separa a quantia, junta os valores e cuida dos teus Pila. A moeda do bulicho entra nas compras, nas apostas e nas dívidas com os outros viventes.",
+      },
+      {
+        file: "compadrio",
+        title: "Compadrio",
+        label: "06 / SER PARCEIRO",
+        description:
+          "Não basta aparecer para a partida. Dividir a lida, recolher as bochas e honrar as dívidas constrói a confiança de cada companheiro.",
+      },
+    ],
+    scenes: [
+      {
+        file: "chimarrao",
+        title: "O bulicho do Honório",
+        description: "Da chaleira ao balcão, cada objeto faz parte da lida.",
+      },
+      {
+        file: "bocha-tradicional",
+        title: "Uma rodada com Anselmo",
+        description: "Bocha tradicional, pontuação e parceria na cancha.",
+      },
+      {
+        file: "bocha-48",
+        title: "Bocha 48",
+        description: "Prepara os alvos e capricha na próxima jogada.",
+      },
+      {
+        file: "jogo-do-osso",
+        title: "O jogo do osso",
+        description: "Força, direção e destreza em cada arremesso.",
+      },
+    ],
+  },
+};
